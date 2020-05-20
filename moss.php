@@ -111,7 +111,7 @@ class MOSS {
 	 * @see -m in MOSS-Documentation
 	 * @param int $limit
 	 */
-	public function setIngoreLimit($limit){
+	public function setIgnoreLimit($limit){
 		if(is_int($limit) && $limit > 1){
 			$this->options['m'] = (int)$limit;
 			return true;
